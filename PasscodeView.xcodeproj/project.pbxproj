@@ -11,6 +11,9 @@
 		192151882C28691B0079D14B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192151872C28691B0079D14B /* ContentView.swift */; };
 		1921518A2C28691D0079D14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192151892C28691D0079D14B /* Assets.xcassets */; };
 		1921518D2C28691D0079D14B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1921518C2C28691D0079D14B /* Preview Assets.xcassets */; };
+		192151942C28695C0079D14B /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192151932C28695C0079D14B /* PasscodeView.swift */; };
+		192151962C28696B0079D14B /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192151952C28696B0079D14B /* NumberPadView.swift */; };
+		192151982C2869820079D14B /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192151972C2869820079D14B /* PasscodeIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		192151872C28691B0079D14B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		192151892C28691D0079D14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1921518C2C28691D0079D14B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		192151932C28695C0079D14B /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		192151952C28696B0079D14B /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		192151972C2869820079D14B /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				192151872C28691B0079D14B /* ContentView.swift */,
 				192151892C28691D0079D14B /* Assets.xcassets */,
 				1921518B2C28691D0079D14B /* Preview Content */,
+				192151932C28695C0079D14B /* PasscodeView.swift */,
+				192151952C28696B0079D14B /* NumberPadView.swift */,
+				192151972C2869820079D14B /* PasscodeIndicatorView.swift */,
 			);
 			path = PasscodeView;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192151942C28695C0079D14B /* PasscodeView.swift in Sources */,
+				192151982C2869820079D14B /* PasscodeIndicatorView.swift in Sources */,
 				192151882C28691B0079D14B /* ContentView.swift in Sources */,
 				192151862C28691B0079D14B /* PasscodeViewApp.swift in Sources */,
+				192151962C28696B0079D14B /* NumberPadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
